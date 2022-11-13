@@ -1,0 +1,39 @@
+:root{
+    --font20: 20px;
+    --font18: 18px;
+    --font24: 24px;
+    --color-black: #434343;
+    --color-white: #FFFFFF;
+    --color-purple: #A02279;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+.logo a img{
+    width: 235px;
+    height: 36px;
+}
+.nav-options{
+    display: flex;
+    margin-left: 160px;
+    justify-content: space-around;
+}
+
+.nav-options li{
+    margin: 0 30px;
+    font-size: var(--font20);
+    color: var(--color-black);
+}
+
+.wallet-btn a{
+    width: 170px;
+    height: 48px;
+    font-size: var(--font18);
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    padding: 15px 20px;
+
+    border-radius: 10px;
+    color: #fff;
+}
