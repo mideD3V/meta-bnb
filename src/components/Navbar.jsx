@@ -13,6 +13,10 @@ const Navbar = () => {
               <li>NFTs</li>
               <li>Community</li>
           </ul>
+
+          <div className="wallet_btn">
+              <a href="#">Coonect wallet</a>
+          </div>
     </div>
   )
 }
