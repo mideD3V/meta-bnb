@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Red+Rose:wght@300;400;500;600;700&display=swap");
+:root {
+  --font14: 14px;
+  --font20: 20px;
+  --font18: 18px;
+  --font24: 24px;
+  --font48: 48px;
+  --font56: 56px;
+  --color-black: #434343;
+  --color-white: #ffffff;
+  --color-purple: #a02279;
+}
+body {
+  font-family: "Red Rose";
+}
+.hero {
+  display: flex;
+  margin: 100px;
+}
+.hero-txt {
+  flex: 60%;
+
+}
+.hero-txt h1 {
+  font-size: var(--font56);
+}
+.purple-txt {
+  color: var(--color-purple);
+}
+.hero-txt p {
+  width: 90%;
+  font-size: var(--font24);
+}
+.hero-img {
+  flex: 40%;
+  margin-left: 60px;
+}
+.hero-img img{
+    height: 480px;
+    width: 526px;
+    
+    margin-top: -35px;
+}
+.search-box {
+  margin-top: 50px;
+  width: 100%;
+}
+.search-box input {
+  height: 54px;
+  width:390px;
+  padding-left: 15px;
+  color: #B8B8B8;
+  font-size: var(--font14);
+  background: rgba(247, 247, 247, 0.1);
+  border: 1px solid #a3a3a3;
+  border-radius: 8px 0px 0px 8px;
+}
+.search-box a{
+    color: var(--color-white);
+  background: var(--color-purple);
+  border-radius: 0px 8px 8px 0px;
+  height: 54px;
+  width: 230px;
+  padding: 18px 87px;
+  font-size: var(--font14);
+}
+.search-box a:hover{
+    color: var(--color-purple);
+    background-color: var(--color-white);
+    border: 2px solid var(--color-purple);
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* ----- inspiration ----- */
+#inspiration{
+    margin-top: 70px;
+}
+#inspiration h2{
+    
+    margin: 40px auto;
+    text-align: center;
+    font-size: var(--font48);
+    color: black;
+}
+.cards{
+    width: 100%;
+}
+.cards .card{
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.card img{
+    width: 300px;
+    height: 375px;
+    margin: 5px 10px;
+}
+
+/* ----- NFT ----- */
+
+#nft{
+    background: var(--color-purple);
+    display: flex;
+        padding: 100px;
+    
+}
+.nft-txt{
+    color:  var(--color-white);
+    width: 40%;
+}
+
+.nft-txt h2{
+    font-size: var(--font48);
+    margin: 36px 0 35px;
+}
+.nft-txt p{
+    font-size: var(--font18);
+    margin-bottom: 75px;
+}
+.nft-txt a{
+    margin-top: 71px;
+    padding: 14px 30px;
+    color: var(--color-purple);
+    background-color: var(--color-white);
+    border-radius: 8px;
+}
+
+.nft-img img{
+    margin-left: 50px;
+    width: 705px;
+    height: 575px;
+    transform: scale(0.9);
+}

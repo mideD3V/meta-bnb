@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Red+Rose:wght@300;400;500;600;700&display=swap');
+
 :root{
     --font20: 20px;
     --font18: 18px;
@@ -5,6 +7,9 @@
     --color-black: #434343;
     --color-white: #FFFFFF;
     --color-purple: #A02279;
+}
+body{
+    font-family: 'Red Rose';
 }
 .navbar{
     display: flex;
@@ -35,5 +40,5 @@
     padding: 15px 20px;
 
     border-radius: 10px;
-    color: #fff;
+    color: var(--color-white);
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "./../../asset/metabnb-logo.png"
 import navStyles from './Navbar.css'
+import rootStyles from '../root.css'
 
 const Navbar = () => {
   return (
